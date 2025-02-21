@@ -23,6 +23,15 @@
             @media (max-width:767px){ 
                 padding:1.5rem;
             }
+            .mob-sec{
+                font-weight: 600;
+                font-size: 1.875rem;
+                color: var(--white-color);
+                text-wrap: nowrap;
+            }
+            .mob-sec1{
+               text-align: start;
+            }
         }
         & h3{
             width:80%;

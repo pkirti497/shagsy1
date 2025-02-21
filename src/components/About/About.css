@@ -1,4 +1,71 @@
 /* About CSS */
+.service_box{
+    width:calc(100% / 3 - 2rem);
+    padding:2.8571rem 2.1429rem;
+    border-radius: 1.4286rem;
+    background: var(--bg-dark-color);
+    box-sizing: border-box;
+    margin-bottom:3rem;
+    position:relative;
+    z-index: 3;
+
+    @media (max-width:992px){
+        width:calc(100% / 2 - 1rem);
+    }
+    @media (max-width:767px){
+        width:100%;
+    }
+    .number{
+        position:absolute;
+        font-size: 4.2857rem;
+        line-height: 4.2857rem;
+        right:2.8571rem;
+        top:2.1429rem;
+        opacity: .07;
+        margin:0;
+        transition: 0.3s ease-in-out;
+    }   
+    .service_icon{
+        font-size:2.2857rem;
+        width:5rem;
+        height:5rem;
+        line-height: 5rem;
+        border-radius: 50%;
+        color:var(--primary-color);
+        background:var(--primary-bg);
+        text-align: center;
+
+        &.green_icon{
+            color:var(--green-color);
+            background:var(--green-color-bg);
+        }
+        &.blue_icon{
+            color:var(--blue-color);
+            background:var(--blue-color-bg);
+        }
+    }
+    & h5{
+        font-weight: 600;
+        color:var(--white-color);
+        font-size: 1.7143rem;
+        line-height: 2.4286rem;
+    }
+    & p{
+        font-size: 1.2143rem;
+        line-height: 2rem;
+        color:var(--font-color);
+        font-weight: 500;
+    }
+    .read{
+        font-size:1rem;
+        font-weight: 700;
+        color:var(--white-color);
+        margin-top:2.1429rem;
+        display:inline-block;
+        text-transform: capitalize;
+    }
+
+}
 #about {
     padding: 3rem 0 6rem;
     background: url('../../assets/about/layer.png') no-repeat center center;
@@ -48,7 +115,14 @@
         @media (max-width:767px) {
             flex-direction: column;
         }
-
+    .about_box:hover{
+        background-color: #FFC2B4;
+        border-radius: 20px;
+    }
+  
+    .p-text:hover{
+        color: white;
+    }
         .about_box{
             width:calc(100% / 3 - 1rem);
             padding:1rem;

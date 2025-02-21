@@ -41,7 +41,7 @@ export default function Services() {
 
     return (
         <div id="services">
-            <div className="container">
+            <div className="container" style={{marginTop:"-8rem"}}>
                 <div className="title_headling">
                     <h3>Our Story The Minds Behind Shagsy</h3>
                 </div>

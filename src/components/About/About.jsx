@@ -9,7 +9,7 @@ import {
   faHouseLaptop,
   faPhone,
 } from "@fortawesome/free-solid-svg-icons";
-import ab from "../../assets/about/ab.jpg";
+import g from "../../assets/about/g.jpeg";
 import {
   FaChartLine,
   FaUserFriends,
@@ -51,7 +51,7 @@ export default function About() {
               </div>
               <div className="about_content">
                 <h5>Tracker</h5>
-                <p>
+                <p className="p-text">
                   Track what matters to YOU—intimacy, menstrual cycles, and
                   sexual health—all completely anonymous and encrypted.
                 </p>
@@ -63,7 +63,7 @@ export default function About() {
               </div>
               <div className="about_content">
                 <h5>Connect</h5>
-                <p>
+                <p className="p-text">
                   Talk one-on-one with certified sex therapists and doctors in a
                   judgment-free, secure space.
                 </p>
@@ -75,7 +75,7 @@ export default function About() {
               </div>
               <div className="about_content">
                 <h5>Privacy</h5>
-                <p>
+                <p className="p-text">
                   Your data is yours—secured with cutting-edge encryption and
                   protected by experts who prioritize your privacy and your
                   happiness.
@@ -87,9 +87,9 @@ export default function About() {
           <div className="about_box_details">
             <div className="about_col">
               <div className="about_image">
-                <img src={ab} alt="about" className="about_main"  style={{height:"40rem"}}/>
+                <img src={g} alt="about" className="about_main"/>
               </div>
-              <div className="img_info__box">
+              <div className="img_info__box" style={{position:"relative",top:"-1.5rem"}}>
                 <h6 className="img_info__title">Be an Early Adopter</h6>
                 <p>
                 Sexual Wellness Representation "Shagsy is India’s first platform.

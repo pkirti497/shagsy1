@@ -32,7 +32,7 @@ export default function Navbar() {
 
   return (
     <>
-      <header id="site_header" className={`${sticky ? "sticky" : ""}`}>
+      <header id="site_header" className={`${sticky ? "sticky" : "sticky"}`}>
         <div className="container">
           <nav className="navbar" id="Navbar">
             <div>
